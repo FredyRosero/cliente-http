@@ -1,0 +1,10 @@
+{
+  "defaultProject": "cliente-http",
+  "projects": {
+    "cliente-http": {
+      "name": "cliente-http",
+      "integrations": {},
+      "type": "angular"
+    }
+  }
+}

@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 
 //
 import {LibrosModule } from './libros/libros.module';
+import { IonicModule } from '@ionic/angular';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {LibrosModule } from './libros/libros.module';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    LibrosModule
+    LibrosModule,
+    IonicModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
